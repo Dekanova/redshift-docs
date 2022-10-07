@@ -1,0 +1,48 @@
+Row	Description	Part	Part Lib	References	Value	Footprint	Footprint Lib	Quantity Per PCB	Build Quantity	Status	Datasheet	Sheetpath	Source BoM	Reference	MANUFACTURER	PARTREV	STANDARD	MAXIMUM_PACKAGE_HEIGHT	Tolerance	Height	Manufacturer_Name	Manufacturer_Part_Number	Mouser Part Number	Mouser Price/Stock	Arrow Part Number	Arrow Price/Stock
+1	Unpolarized capacitor, small symbol	C_Small	Device	C15 C23	8pF	C_0402_1005Metric	Capacitor_SMD	2	2	 	~	/	redshift(2)													
+2	Unpolarized capacitor, small symbol	C_Small	Device	C13	47pF	C_0402_1005Metric	Capacitor_SMD	1	1	 	~	/	redshift(1)													
+3	Unpolarized capacitor, small symbol	C_Small	Device	C1 C2 C3 C4 C5 C6 C7 C9 C12 C16 C17 C19 C21 C24	100nF	C_0402_1005Metric	Capacitor_SMD	14	14	 	~	/	redshift(14)													
+4	Unpolarized capacitor, small symbol	C_Small	Device	C8 C10	2.2uF	C_0402_1005Metric	Capacitor_SMD	2	2	 	~	/	redshift(2)													
+5	Unpolarized capacitor, small symbol	C_Small	Device	C22	4.7uF	C_0402_1005Metric	Capacitor_SMD	1	1	 	~	/	redshift(1)													
+6	Unpolarized capacitor, small symbol	C_Small	Device	C18	10uF	C_0402_1005Metric	Capacitor_SMD	1	1	 	~	/	redshift(1)													
+7	Unpolarized capacitor, small symbol	C_Small	Device	C11 C14 C20	22uF	C_0402_1005Metric	Capacitor_SMD	3	3	 	~	/	redshift(3)													
+8	Light emitting diode, small symbol	LED_Small	Device	D3	AMBER	LED_0402_1005Metric	LED_SMD	1	1	 	~	/	redshift(1)													
+9	Light emitting diode, small symbol	LED_Small	Device	D4	GREEN	LED_0402_1005Metric	LED_SMD	1	1	 	~	/	redshift(1)													
+10	Schottky diode	D_Schottky	Device	D7	NSR05F40NXT5G	D_0402_1005Metric	Diode_SMD	1	1	 	~	/	redshift(1)													
+11	Ultra low capacitance double rail-to-rail ESD protection diode, SOT-363	PRTR5V0U2X	Power_Protection	D1	PRTR5V0U2X	BF994S	footprints	1	1	 	https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf	/	redshift(1)													
+12	Light emitting diode, small symbol	LED_Small	Device	D2 D5 D6	RED	LED_0402_1005Metric	LED_SMD	3	3	 	~	/	redshift(3)													
+13	Rotary encoder, dual channel, incremental quadrate outputs	Rotary_Encoder	Device	ENC1	Rotary_Encoder	RotaryEncoder_Horizontal	openinput	1	1	 	~	/	redshift(1)													
+14	Resettable fuse, polymeric positive temperature coefficient	Polyfuse	Device	F1	500mA	Fuse_0402_1005Metric	Fuse	1	1	 	BLM15EG221SZ1D	/	redshift(1)													
+15	Ferrite bead, small symbol	Ferrite_Bead_Small	Device	FB1	~	L_0402_1005Metric	Inductor_SMD	1	1	 	~	/	redshift(1)													
+16	NXP - LPC5528JEV98K - ARM MCU, LPC Family LPC5500 Series Microcontrollers, ARM Cortex-M33F, 32bit, 150 MHz, 512 KB	LPC5528JEV98K	LPC5528JEV98K	IC1	LPC5526JEV98	BGA98C50P13X13_700X700X97N	solokeys	1	1	 	https://www.nxp.com/docs/en/nxp/data-sheets/LPC55S2x_LPC552x_DS.pdf	/	redshift(1)							0.97	NXP	LPC5528JEV98K	771-LPC5528JEV98K	https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/LPC5528JEV98K?qs=P1JMDcb91o5sPbMIELbbvA%3D%3D		
+17	Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)	Conn_01x06_Female	Connector	J3	Conn_01x06_Female	PinHeader_1x06_P2.00mm_Vertical	Connector_PinHeader_2.00mm	1	1	 	~	/	redshift(1)													
+18	Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface	Conn_ARM_JTAG_SWD_10	Connector	J4	Conn_ARM_JTAG_SWD_10	PinHeader_2x05_P1.27mm_Vertical_SMD	Connector_PinHeader_1.27mm	1	1	 	http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf	/	redshift(1)													
+19	Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)	Conn_01x05	Connector_Generic	J2	Side	JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical	Connector_JST	1	1	 	~	/	redshift(1)													
+20	USB 2.0-only Type-C Receptacle connector	USB_C_Receptacle_USB2.0	Connector	J1	USB_C_Receptacle_USB2.0	GCT_USB4105-GF-A	GCT_USB	1	1	 	https://www.usb.org/sites/default/files/documents/usb_type-c.zip	/	redshift(1)													
+21	Inductor symbol for simulation only	INDUCTOR	pspice	L1	4u7H	R_0603_1608Metric	Resistor_SMD	1	1	 	~	/	redshift(1)													
+22	Resistor	R	Device	R2 R3	5.1k 20%	R_0402_1005Metric	Resistor_SMD	2	2	 	~	/	redshift(2)						20%							
+23	Resistor, small symbol	R_Small	Device	R4 R5 R6 R7 R8 R13	10k	R_0402_1005Metric	Resistor_SMD	6	6	 	~	/	redshift(6)													
+24	Resistor, small symbol	R_Small	Device	R1	100k	R_0402_1005Metric	Resistor_SMD	1	1	 	~	/	redshift(1)													
+25	Push button switch, generic, two pins	SW_Push	Switch	SW4	PTS810	SW_SPST_PTS810	Button_Switch_SMD	1	1	 	~	/	redshift(1)													
+26	Switch, single pole double throw	SW_SPDT	openinput	SW1 SW2 SW3	SW_SP	SW_Micro_Switch	openinput	3	3	 		/	redshift(3)													
+27		MIC5365-3.3YC5-TR	MIC5365-3.3YC5-TR	U2	MIC5365-3.3YC5-TR	SOT65P210X110-5N	MIC5365-3.3YC5-TR	1	1	 		/	redshift(1)		Micrel	3.1 - July 16, 2013	IPC 7351B	1.10mm								
+28	Optical Gaming Navigation Sensor	PAW3399DM‐T4QU	openinput	U1	PAW3399DM‐T4QU	PXI-DIP-16	openinput	1	1	 		/	redshift(1)													
+29	200mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5/SC-70-5/SOT-353	TLV70012_SOT353	Regulator_Linear	U3	TCR2LE19,LM(CT	SOT-553	Package_TO_SOT_SMD	1	1	 	http://www.ti.com/lit/ds/symlink/tlv700.pdf	/	redshift(1)													
+30	Three pin crystal, GND on pin 2	Crystal_GND2	Device	Y1	XRCGB16M000FXN16R0	Crystal_SMD_2016-4Pin_2.0x1.6mm	Crystal	1	1	 	~	/	redshift(1)													
+
+
+
+
+
+Project info:
+Schematic:	redshift
+Variant:	default
+Revision:	0.2
+Date:	2021-12-22
+KiCad Version:	6.0.7+dfsg-1~bpo11+1
+Statistics:
+Component Groups:	30
+Component Count:	57 (48 SMD/ 9 THT)
+Fitted Components:	57 (48 SMD/ 9 THT)
+Number of PCBs:	1
+Total Components:	57
